@@ -1,0 +1,9 @@
+[local]
+ansible-engine ansible_connection=local
+
+[nodes]
+node1 ansible_host=172.31.xx.xx
+node2 ansible_host=172.31.xx.xx
+
+[node1]
+node1 ansible_host=172.31.xx.xx
